@@ -1,0 +1,101 @@
+.chat-container{
+  width: 90%;
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.chat-title{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.room-badge{
+  width: fit-content;
+  margin: 0 auto 20px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: #e9e9e9;
+  font-weight: bold;
+}
+
+.input-section{
+  display: flex;
+  gap: 10px;
+}
+
+.message-input{
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.send-btn{
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.typing-indicator{
+  margin-top: 10px;
+  min-height: 20px;
+  font-style: italic;
+}
+
+.messages-container{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.message-card{
+  padding: 14px;
+  border-radius: 10px;
+
+  background: rgba(128,128,128,0.1);
+  line-height: 1.5;
+}
+
+
+.join-container{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-card{
+  width: 400px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.join-title{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.join-input,
+.join-select{
+  padding: 12px;
+  border-radius: 8px;
+  border:1px solid #ccc;
+  font-size: 16px;
+}
+
+.join-btn{
+  padding:12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
