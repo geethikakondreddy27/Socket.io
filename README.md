@@ -52,7 +52,18 @@ The application supports separate communication channels:
 
 Messages are delivered only to users who belong to the selected room.
 
+---
 
+## Live Demo:
+Deployment link : https://socket-io-puce-eight.vercel.app/ 
+
+### Testing Instructions
+1. Open the application in a normal browser window.
+2. Open the same application in an incognito/private window.
+3. Join the chat using different usernames.
+4. Select either the General or Tech Support room.
+5. Send messages and verify real-time communication and typing indicators.
+6. Test room-based messaging by joining different rooms and confirming message isolation.
 
 ## Author
 
